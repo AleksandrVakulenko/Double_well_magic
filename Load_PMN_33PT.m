@@ -1,7 +1,4 @@
 
-% addpath('./include')
-
-
 % % ------ PMN-33PT fall 2023 100um ------
 folder = 'Results 2023/Results_2023_10_11_PMN_33PT/';
 Sample.h = 100e-6; % m

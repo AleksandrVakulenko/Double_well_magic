@@ -7,7 +7,7 @@ poly_main = @(x, Root_pos_L, Root_pos_R, Scale, Asym, Scale_basic) ...
 
 clc
 
-fig = figure('position', [548   196   543   758]);
+fig = figure('position', [535 106 672 867]);
 
 Scale_basic = 1e-4;
 Far_away_right = 80;
@@ -93,7 +93,8 @@ for N = 1:numel(Temp_array)
     set(gca, 'fontsize', 13)
     box('on')
     legend({'22 °C', '35 °C', '45 °C', '55 °C', '65 °C', ...
-        '75 °C', '85 °C', '100 °C', '115 °C', '125 °C', '130 °C'}, 'Location', 'best')
+            '75 °C', '85 °C', '100 °C', '115 °C', '125 °C', '130 °C'}, ...
+            'Location', 'northwest', 'FontSize', 10);
     %     xline(Ec_p, '--')
     %     xline(Ec_n)
     %     yline(Pr_p, '--')
